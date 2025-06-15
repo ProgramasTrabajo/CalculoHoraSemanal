@@ -768,7 +768,7 @@ def procesar_modulo_integral():
                                 st.download_button(
                                     label="📥 Reporte 1: Horas Calculadas",
                                     data=excel_data1,
-                                    file_name="reporte_1_horas_calculadas.xlsx",
+                                    file_name="reporte_1_horas_calculadas(C).xlsx",
                                     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                                     help="Descarga el reporte de horas laborales con todos los cálculos"
                                 )
@@ -782,7 +782,7 @@ def procesar_modulo_integral():
                                 st.download_button(
                                     label="📥 Reporte 2: Asistencia Semanal",
                                     data=excel_data2,
-                                    file_name="reporte_2_asistencia_semanal.xlsx",
+                                    file_name="reporte_2_asistencia_semanal(C).xlsx",
                                     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                                     help="Descarga el reporte consolidado de asistencia"
                                 )
@@ -797,7 +797,7 @@ def procesar_modulo_integral():
                                     st.download_button(
                                         label="📥 Reporte 3: Tramos de Faltas",
                                         data=excel_data3,
-                                        file_name="reporte_3_tramos_faltas.xlsx",
+                                        file_name="reporte_3_tramos_faltas(C).xlsx",
                                         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                                         help="Descarga el reporte de tramos de faltas con fechas"
                                     )
